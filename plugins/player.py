@@ -232,4 +232,4 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?.com//VideoPlayerBot/tree/alpha"),
             ]
          ]
-    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️!You Can Make Your Own Bot Like This From The [Source Code](https://github.com/AsmSafone/VideoPlayerBot/tree/alpha) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️AsmSafone/VideoPlayerBot/tree/alpha) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
