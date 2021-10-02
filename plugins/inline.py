@@ -26,13 +26,6 @@ from pyrogram.types import InlineQueryResultArticle, InlineQueryResultPhoto, Inp
 buttons = [
             [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
-            ],
-            [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
-            ],
-            [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/VideoPlayerBot/tree/alpha"),
             ]
          ]
 
@@ -45,13 +38,13 @@ def get_cmd(dur):
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "SAF_ONE":
+    if query.query == "rasmikamandhana":
         answers.append(
             InlineQueryResultPhoto(
                 title="Deploy Own Video Player Bot",
-                thumb_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                photo_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @SafoTheBot 👑</b>",
+                thumb_url="https://telegra.ph//file/3ed5eafa4a95960d0.jpg",
+                photo_url="https://telegra.ph//file/3ed5eafa4a959680.jpg",
+                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@green👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
